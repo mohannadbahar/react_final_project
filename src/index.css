@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  background-color: #2d3339 !important; /* Dark background color */
+  font-family: "Playpen Sans", cursive !important;
+}
+
+input,
+.forgetpassword {
+  border-radius: 5px !important;
+}
+
+.navbar {
+  background-color: #343a40 !important; /* Dark background color */
+}
+
+form {
+  background-color: #343a40 !important; /* Dark background color */
+  border-radius: 5px !important;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px; /* White shadow */
+  width: 550px !important;
+  margin: auto;
+}
+
+.submit,
+.forgetpassword {
+  background-color: #d06cf5; /* Purple color */
+  border: none;
+  padding: 5px 8px;
+}
+
+a {
+  display: inline-block;
+  color: #fff; /* White color */
+}
+
+h1 {
+  color: #a600ff !important; /* Purple color */
+}
+
+button {
+  color: #a600ff !important; /* Purple color */
+  border-color: #a600ff !important; /* Purple color */
+}
+
+button:hover {
+  background-color: #d06cf5 !important; /* Purple color */
+  color: #fff !important; /* White color */
+  border-color: #fff !important; /* White color */
+}

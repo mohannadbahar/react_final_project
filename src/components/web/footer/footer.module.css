@@ -1,0 +1,15 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+  
+  .footer svg {
+    fill: #fff; /* White color for svg icon */
+    margin-right: 5px;
+  }
+  
