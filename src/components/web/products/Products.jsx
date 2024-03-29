@@ -15,7 +15,7 @@ export default function Products() {
   const getProducts = async (page) => {
     try {
       const { data } = await axios.get(
-        `https://ecommerce-node4.vercel.app/products?page=${page}`
+        `https://ecommerce-node4-five.vercel.app/products?page=${page}`
       );
       console.log(data);
       setpro(data);
