@@ -102,7 +102,7 @@ export const router = createBrowserRouter([
 
       {
         path: "*",
-        element: <h1 className="text-center pt-5">Tasneem Shop</h1>,
+        element: <h1 className="text-center pt-5">Bahar Shop</h1>,
       },
     ],
   },
