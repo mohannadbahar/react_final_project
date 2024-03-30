@@ -46,7 +46,7 @@ export default function Categories() {
         pagination={{ clickable: true, el: ".swiper-custom-pagination" }}
         loop={true}
         autoplay={{
-          delay: 1000,
+          delay: 10000,
         }}
       //  onSlideChange={() => console.log("slide change")}
       //  onSwiper={(swiper) => console.log(swiper)}
