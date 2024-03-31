@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export default function Categories() {
   const getCategories = async () => {
     const { data } = await axios.get(
-      `${import.meta.env.VITE_API_URL}/categories/active?limit=5`
+      `https://ecommerce-node4-five.vercel.app/categories/active?limit=5`
     );
     return data;
   };
