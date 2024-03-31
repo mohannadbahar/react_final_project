@@ -61,7 +61,7 @@ export default function Products() {
     }
     try {
       const { data } = await axios.get(
-        `https://ecommerce-node4.vercel.app/products?page=${page}&price[gte]=${min}&price[lte]=${max}`
+        `https://ecommerce-node4-five.vercel.app/products?page=${page}&price[gte]=${min}&price[lte]=${max}`
       );
       console.log(data);
       setpro(data);
